@@ -1,0 +1,10 @@
+/.idea/
+/out/
+/target/
+/.settings/
+.classpath
+.project
+nb-configuration.xml
+mavenproject2.iml
+.DS_Store
+.DS_Store/
