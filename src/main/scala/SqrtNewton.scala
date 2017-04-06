@@ -11,13 +11,13 @@ object SqrtNewton {
       else sqrtIter(improve(guess, x), x)
     }
 
-      def isGoodEnough(guess: Double, x: Double): Boolean = {
-        (guess * guess - x).abs / x < 0.001
-      }
+    def isGoodEnough(guess: Double, x: Double): Boolean = {
+      (guess * guess - x).abs / x < 0.001
+    }
 
-      def improve(guess: Double, x: Double): Double = {
-        (guess + x / guess) / 2
-      }
+    def improve(guess: Double, x: Double): Double = {
+      (guess + x / guess) / 2
+    }
 
     sqrtIter(1D, x)
   }
