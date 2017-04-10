@@ -1,3 +1,5 @@
+package functions
+
 object SimpleFunctions {
   val pi = 3.14159
 

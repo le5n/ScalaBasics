@@ -1,3 +1,5 @@
+package simpleAlgorithms
+
 import scala.annotation.tailrec
 
 object FactorialTail {

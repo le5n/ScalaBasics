@@ -1,3 +1,7 @@
+package functions
+
+import simpleAlgorithms.FactorialTail
+
 import scala.annotation.tailrec
 
 object HighOrderFun {

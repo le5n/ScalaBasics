@@ -1,3 +1,5 @@
+package simpleAlgorithms
+
 object Fibonacci {
   def fibonacci(a: Int): Int = {
     if(a<=2) 1

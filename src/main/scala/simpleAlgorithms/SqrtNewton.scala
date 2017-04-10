@@ -1,3 +1,5 @@
+package simpleAlgorithms
+
 object SqrtNewton {
 
   def main(args: Array[String]): Unit = {
